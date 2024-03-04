@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>***</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+  <h1>All about CHATGPT!</h1> 
+    <p style = "font-family : Arial">A conversational AI developed by OpenAI, emerged from a lineage of increasingly sophisticated language models. Its journey began with the development of the GPT (Generative Pre-trained Transformer) series, which aimed to create models capable of understanding and generating human-like text. The first iteration, GPT-1, demonstrated the potential of large-scale pretraining on diverse text sources. However, it was with the release of GPT-2 in 2019 that the capabilities of such models truly captured public attention.
+    GPT-2 was notable for its size, with 1.5 billion parameters, and its ability to generate coherent and contextually relevant text across a wide range of topics. Despite concerns about the potential misuse of such a powerful model, OpenAI released GPT-2 in stages, starting with a smaller version and gradually increasing the size of the model that was made publicly available. This approach allowed researchers and developers to explore its capabilities while mitigating potential risks.
+    Building on the success of GPT-2, OpenAI released GPT-3 in June 2020. With 175 billion parameters, GPT-3 represented a significant leap in scale and performance. Its ability to generate highly coherent and contextually relevant text, coupled with its versatility in tasks ranging from language translation to code generation, showcased the transformative potential of large-scale language models. ChatGPT is a refinement and application of the GPT-3 architecture, optimized specifically for conversational interactions. Its development represents a continued effort to harness the power of AI to enhance human-machine communication and interaction.
+    From CHATGPT
+    </p>
+  <h3>Learn more about it!</h3>
+  <button id = "fade_button" onclick="">Click here!</button>
+
+
+  </div><!-- close "container" -->
+  
+  <!-- Link to jQuery on Google CDN-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  
+  
+  <!-- Write your jQuery code inside of the .ready() function below -->
+  <script>
+$(document).ready(function() {
+
+  $("#fade_button").click(function(){
+        $("#container").fadeOut();
+    });
+
+}); //close .ready()
+</script>
+
+</body>
+	
+</html> 
