@@ -1,6 +1,6 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-	margin:0px;
+	margin-top:0px;
 	padding:0px;
 	height:100%;
     text-align: center;
@@ -15,22 +15,28 @@ html {
  
 
 
-body {
-	margin: 0;
-    padding: 0;
-
-	
+.header {
+    background: white;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding:10px;
 }
+
+.h1 {
+    margin-top:0px;
+}
+
+
+.main {
+    padding:20px;
+}
+
 
 
 #container {
 	
 }
 
-header {
-    padding-top: 1000px; 
-    background-color: white;
-}
 
  
 
