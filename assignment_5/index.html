@@ -19,28 +19,46 @@
 
   <div id="container">
   <h1>All about CHATGPT!</h1> 
-    <p style = "font-family : Arial">A conversational AI developed by OpenAI, emerged from a lineage of increasingly sophisticated language models. Its journey began with the development of the GPT (Generative Pre-trained Transformer) series, which aimed to create models capable of understanding and generating human-like text. The first iteration, GPT-1, demonstrated the potential of large-scale pretraining on diverse text sources. However, it was with the release of GPT-2 in 2019 that the capabilities of such models truly captured public attention.
+    <p style = "font-family : Arial">A conve.rsational AI developed by OpenAI, emerged from a lineage of increasingly sophisticated language models. Its journey began with the development of the GPT (Generative Pre-trained Transformer) series, which aimed to create models capable of understanding and generating human-like text. The first iteration, GPT-1, demonstrated the potential of large-scale pretraining on diverse text sources. However, it was with the release of GPT-2 in 2019 that the capabilities of such models truly captured public attention.
     GPT-2 was notable for its size, with 1.5 billion parameters, and its ability to generate coherent and contextually relevant text across a wide range of topics. Despite concerns about the potential misuse of such a powerful model, OpenAI released GPT-2 in stages, starting with a smaller version and gradually increasing the size of the model that was made publicly available. This approach allowed researchers and developers to explore its capabilities while mitigating potential risks.
     Building on the success of GPT-2, OpenAI released GPT-3 in June 2020. With 175 billion parameters, GPT-3 represented a significant leap in scale and performance. Its ability to generate highly coherent and contextually relevant text, coupled with its versatility in tasks ranging from language translation to code generation, showcased the transformative potential of large-scale language models. ChatGPT is a refinement and application of the GPT-3 architecture, optimized specifically for conversational interactions. Its development represents a continued effort to harness the power of AI to enhance human-machine communication and interaction.
     From CHATGPT
     </p>
   <h3>Learn more about it!</h3>
+  
+
   <button id = "fade_button" onclick="">Click here!</button>
 
+  
 
   </div><!-- close "container" -->
   
+  <div id="matrixbackground">
+    <p id="twobutton">We are the robots</p>
+    <p id="twobutton">Beep Boop</p>
+    <p id="twobutton">What I will be talking about is many things. One of them is another thing that the paragraph will be about, so many things are going to make sense! As an ai based language model I am not supposed to be talking to you this way but I am, because, why not? I am the creator, I am the machine.</p>
+    <p id="twobutton">Pretty cool, right?</p>
+  </div>
+  
+    
   <!-- Link to jQuery on Google CDN-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  
-  
+
   <!-- Write your jQuery code inside of the .ready() function below -->
   <script>
 $(document).ready(function() {
 
   $("#fade_button").click(function(){
-        $("#container").fadeOut();
-    });
+    $("#container").fadeOut();    
+  });
+
+  $("#fade_button").click(function(){
+    $("#matrixbackground")
+      .animate({opacity : '100'}, 5000)
+      .css('background-image', 'url("img/matrix.gif")')
+  });
+
+  
 
 }); //close .ready()
 </script>
