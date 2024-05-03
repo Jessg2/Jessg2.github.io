@@ -1,9 +1,10 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
-	margin-top:0px;
+	margin:0px;
+    background: #222;
 	padding:0px;
 	height:100%;
-    text-align: left;
+    font-weight: 300;
 }
 
 html {
@@ -12,26 +13,64 @@ html {
     line-height: 1.4em;
 }
 
- 
 
 
-.header {
-    background: white;
-    color:black;
-    font-family: Arial, Helvetica, sans-serif; 
-    padding:10px;
+
+/* Nice looking navigation bar */
+
+body {
+	margin: 0;
+    background: #808080; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.h1 {
-    margin-top:0px;
+
+
+#container {
+	width: 80%
+    margin 0 auto;
+
+}
+header {
+    background: #55d6aa; 
+}
+
+header :after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;   
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 75;
+    padding-top: 23px;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 
-.main {
-    padding:20px;
-}
 
- 
+
+
+
+
 
 
 /* Class for making YouTube/Vimeo videos responsive */
@@ -62,7 +101,7 @@ hr {
     border-top: 1px solid #ccc;
     margin: 1em 0px;
     padding: 0px;
-}
+ }
 
 
 
