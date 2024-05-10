@@ -58,8 +58,8 @@ body {
 
 /* CSS code for styling the image */
 img {
-    width: 200px; /* Set the width of the image */
-    height: 5in; /* Maintain aspect ratio */
+    width: 150px; /* Set the width of the image */
+    height: 100px; /* Maintain aspect ratio */
     margin: 20px; /* Add some space around the image */
     border-radius: 50%; /* Make the image round */
     border: 2px solid #333; /* Add a border */
