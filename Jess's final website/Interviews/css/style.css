@@ -1,7 +1,6 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
 	margin:0px;
-	padding:0px;
 	height:100%;
 }
 
@@ -11,6 +10,36 @@ html {
     line-height: 1.4em;
 }
 
+.navbar {
+    background-color: #3333;
+    overflow: hidden;
+    padding-left: 35%;
+}
+
+.navbar a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color:black;
+}
+
+
+#container {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8%;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 
 
