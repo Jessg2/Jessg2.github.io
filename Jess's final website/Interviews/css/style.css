@@ -56,7 +56,15 @@ body {
 
 
 
-
+/* CSS code for styling the image */
+img {
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px; /* Add some space around the image */
+    border-radius: 50%; /* Make the image round */
+    border: 2px solid #333; /* Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
 
 
 
