@@ -31,17 +31,11 @@ html {
     color:black;
 }
 
-.image-with-text img {
-    float: left;
-    margin-right: 10px; /*Adjust this value for the desired spacing */
-}
-
-
 #container {
 	width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8%;
+    padding: 10%;
     background-color: #f4f4f4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
