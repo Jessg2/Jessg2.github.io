@@ -12,6 +12,7 @@ html {
 }
 
 
+/* CSS code for styling the image */
 img {
     float: right;;
     width: 150px; /* Set the width of the image */
@@ -22,7 +23,26 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
   }
 
+  .navbar {
+    background-color: #3333;
+    overflow: hidden;
+    padding-left: 35%;
+}
 
+.navbar a 
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color:black;
+}
 
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
@@ -33,7 +53,12 @@ body {
 
 
 #container {
-	
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10%;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
