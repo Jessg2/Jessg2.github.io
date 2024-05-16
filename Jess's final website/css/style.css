@@ -42,6 +42,7 @@ html {
 
 
 
+
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
 body {
@@ -58,9 +59,10 @@ body {
 
 /* CSS code for styling the image */
 img {
-    float: right;;
-    width: 150px; /* Set the width of the image */
-    height: 100px; /* Maintain aspect ratio */
+    image-rendering: pixelated;
+    float: right;
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
     margin: 20px; /* Add some space around the image */
     border-radius: 50%; /* Make the image round */
     border: 2px solid #333; /* Add a border */
