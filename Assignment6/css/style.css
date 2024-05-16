@@ -19,33 +19,30 @@ body, html {
     height: 100%;
     overflow-x: hidden;
 }
-
-.parallax {
-    width: 100%;
-    height: 100vh;
+#parallax-container {
+    position: relative;
+    height: 500px; /* Adjust height as needed */
+    overflow-x: hidden;
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
-.intro_nums {
-    margin-top: 530px;
-    padding-left: 24px;
-    font-size: 200px;
-    text-align: center;
-
-}
-
-.parallax-bg {
+#parallax-background {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 150%; /* Adjust to make the background scroll slower */
-    background-image:url("/img/FilmExclusive.png");
+    height: 100%;
+    background-image: url('path_to_your_image.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    z-index: -1;
-    transition: transform 0.4s ease-in-out; /* Adjust duration as needed */
+    z-index: -1; /* Behind other content */
+    transform: translateZ(-1px) scale(2); /* Adjust scale for parallax effect */
+}
+
+#parallax-content {
+    position: relative;
+    z-index: 1; /* Above the background */
+    padding: 20px;
 }
 
 .content {
