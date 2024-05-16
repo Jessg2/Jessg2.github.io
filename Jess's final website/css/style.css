@@ -1,7 +1,6 @@
 /* Basic CSS resets -- leveling slight inconsistencies in browsers */
 html, body {
 	margin:0px;
-	padding:0px;
 	height:100%;
 }
 
@@ -11,20 +10,10 @@ html {
     line-height: 1.4em;
 }
 
-
-
-
-/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-	
-}
 .navbar {
     background-color: #3333;
     overflow: hidden;
+    padding-left: 35%;
 }
 
 .navbar a 
@@ -42,19 +31,41 @@ body {
     color:black;
 }
 
-
 #container {
 	width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10%;
     background-color: #f4f4f4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for tablets and desktop computers later */
 
+body {
+	
+	
+}
+
+
+#container {
+	
+}
+
+
+
+/* CSS code for styling the image */
+img {
+    float: right;;
+    width: 150px; /* Set the width of the image */
+    height: 100px; /* Maintain aspect ratio */
+    margin: 20px; /* Add some space around the image */
+    border-radius: 50%; /* Make the image round */
+    border: 2px solid #333; /* Add a border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
 
 
 
